@@ -2,7 +2,7 @@
  *  Java 1. Homework #2
  *
  *  @ author Alex Gavrikov
- *  @ version 12/12/2021
+ *  @ version 13/12/2021
  *
  */
 
@@ -29,12 +29,7 @@ class HWGal2 {
     }
 
     static boolean summTwoNumbers(int a, int b) {
-        int c = a + b;
-        if (c >= 10 && c <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a + b >= 10 && a + b <= 20);
     }
 
     static void printNumberSign(int a) {
@@ -44,12 +39,7 @@ class HWGal2 {
     }
 
     static boolean checkNumberSign(int a) {
-        if (a <= 0) {
-            return true;
-        } else {
-            return false;
-        }
-
+        return (a <= 0);
     }
 
     static void printString(String StrP, int a) {
