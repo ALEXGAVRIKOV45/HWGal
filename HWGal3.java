@@ -2,7 +2,7 @@
  *  Java 1. Homework #3
  *
  *  @ author Alex Gavrikov
- *  @ version 14/12/2021
+ *  @ version 15/12/2021
  *
  */
 import java.util.Random;
