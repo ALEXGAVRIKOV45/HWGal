@@ -42,10 +42,10 @@ class HWGal2 {
         return (a <= 0);
     }
 
-    static void printString(String StrP, int a) {
+    static void printString(String strp, int a) {
 
         for (int i = 0; i < a; i++) {
-            System.out.println(StrP);
+            System.out.println(strp);
         }
     }
 
