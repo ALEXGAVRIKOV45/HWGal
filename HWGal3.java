@@ -103,9 +103,9 @@ class HWGal3 {
         int[]arr = new int[50];
         int iMax = 0;
         int iMin = 0;
-        int vMax = 0;
-        int vMin = 99;
-        for (int i = 0; i < 50; i++) {
+        int vMax = -2147483648;
+        int vMin = 2147483647;
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(100);
             if (arr[i] > vMax) {
                 vMax = arr[i];
