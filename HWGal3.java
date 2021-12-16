@@ -69,8 +69,8 @@ class HWGal3 {
     static void printDialonals() {
         int[][]table = new int[10][10];
         int counter = 1;
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
+        for (int i = 0; i < table.length; i++) {
+            for (int j = 0; j < table[i].length; j++) {
                 table[i][j] = counter;
                 System.out.print((table[i][j] < 10) ? "  " + table[i][j] + " " : table[i][j] + " ");
                 counter++;
